@@ -7,6 +7,5 @@ import (
 )
 
 func main() {
-	pizzaMessage := emoji.Sprint("Hello :world_map:!")
-	fmt.Println(pizzaMessage)
+	fmt.Println(emoji.Sprint("Hello :world_map:!"))
 }
